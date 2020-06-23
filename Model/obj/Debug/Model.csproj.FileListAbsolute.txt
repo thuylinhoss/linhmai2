@@ -1,0 +1,72 @@
+C:\Users\My PC\documents\visual studio 2013\Projects\FashionShop2.0\Model\bin\Debug\Model.dll.config
+C:\Users\My PC\documents\visual studio 2013\Projects\FashionShop2.0\Model\bin\Debug\Model.dll
+C:\Users\My PC\documents\visual studio 2013\Projects\FashionShop2.0\Model\bin\Debug\Model.pdb
+C:\Users\My PC\documents\visual studio 2013\Projects\FashionShop2.0\Model\bin\Debug\EntityFramework.dll
+C:\Users\My PC\documents\visual studio 2013\Projects\FashionShop2.0\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\My PC\documents\visual studio 2013\Projects\FashionShop2.0\Model\bin\Debug\EntityFramework.xml
+C:\Users\My PC\documents\visual studio 2013\Projects\FashionShop2.0\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\My PC\documents\visual studio 2013\Projects\FashionShop2.0\Model\obj\Debug\Model.dll
+C:\Users\My PC\documents\visual studio 2013\Projects\FashionShop2.0\Model\obj\Debug\Model.pdb
+C:\Users\My PC\documents\visual studio 2013\Projects\FashionShop2.0\Model\bin\Debug\PagedList.dll
+C:\Users\My PC\documents\visual studio 2013\Projects\FashionShop2.0\Model\bin\Debug\PagedList.Mvc.dll
+C:\Users\My PC\documents\visual studio 2013\Projects\FashionShop2.0\Model\bin\Debug\PagedList.xml
+C:\Users\My PC\documents\visual studio 2013\Projects\FashionShop2.0\Model\bin\Debug\PagedList.Mvc.xml
+C:\Users\My PC\documents\visual studio 2013\Projects\FashionShop2.0\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\My PC\Desktop\Nhom 19\FashionShop2.0\Model\bin\Debug\Model.dll.config
+C:\Users\My PC\Desktop\Nhom 19\FashionShop2.0\Model\bin\Debug\Model.dll
+C:\Users\My PC\Desktop\Nhom 19\FashionShop2.0\Model\bin\Debug\Model.pdb
+C:\Users\My PC\Desktop\Nhom 19\FashionShop2.0\Model\bin\Debug\EntityFramework.dll
+C:\Users\My PC\Desktop\Nhom 19\FashionShop2.0\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\My PC\Desktop\Nhom 19\FashionShop2.0\Model\bin\Debug\PagedList.dll
+C:\Users\My PC\Desktop\Nhom 19\FashionShop2.0\Model\bin\Debug\PagedList.Mvc.dll
+C:\Users\My PC\Desktop\Nhom 19\FashionShop2.0\Model\bin\Debug\EntityFramework.xml
+C:\Users\My PC\Desktop\Nhom 19\FashionShop2.0\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\My PC\Desktop\Nhom 19\FashionShop2.0\Model\bin\Debug\PagedList.xml
+C:\Users\My PC\Desktop\Nhom 19\FashionShop2.0\Model\bin\Debug\PagedList.Mvc.xml
+C:\Users\My PC\Desktop\Nhom 19\FashionShop2.0\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\My PC\Desktop\Nhom 19\FashionShop2.0\Model\obj\Debug\Model.dll
+C:\Users\My PC\Desktop\Nhom 19\FashionShop2.0\Model\obj\Debug\Model.pdb
+C:\Users\My PC\Desktop\MVC Tool\Nhom_19\FashionShop2.0\Model\bin\Debug\Model.dll.config
+C:\Users\My PC\Desktop\MVC Tool\Nhom_19\FashionShop2.0\Model\bin\Debug\Model.dll
+C:\Users\My PC\Desktop\MVC Tool\Nhom_19\FashionShop2.0\Model\bin\Debug\Model.pdb
+C:\Users\My PC\Desktop\MVC Tool\Nhom_19\FashionShop2.0\Model\bin\Debug\EntityFramework.dll
+C:\Users\My PC\Desktop\MVC Tool\Nhom_19\FashionShop2.0\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\My PC\Desktop\MVC Tool\Nhom_19\FashionShop2.0\Model\bin\Debug\PagedList.dll
+C:\Users\My PC\Desktop\MVC Tool\Nhom_19\FashionShop2.0\Model\bin\Debug\PagedList.Mvc.dll
+C:\Users\My PC\Desktop\MVC Tool\Nhom_19\FashionShop2.0\Model\bin\Debug\EntityFramework.xml
+C:\Users\My PC\Desktop\MVC Tool\Nhom_19\FashionShop2.0\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\My PC\Desktop\MVC Tool\Nhom_19\FashionShop2.0\Model\bin\Debug\PagedList.xml
+C:\Users\My PC\Desktop\MVC Tool\Nhom_19\FashionShop2.0\Model\bin\Debug\PagedList.Mvc.xml
+C:\Users\My PC\Desktop\MVC Tool\Nhom_19\FashionShop2.0\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\My PC\Desktop\MVC Tool\Nhom_19\FashionShop2.0\Model\obj\Debug\Model.dll
+C:\Users\My PC\Desktop\MVC Tool\Nhom_19\FashionShop2.0\Model\obj\Debug\Model.pdb
+E:\Project test\BTL_CNWeb_Truong_TH12A\Nhom_19\FashionShop2.0\Model\bin\Debug\Model.dll.config
+E:\Project test\BTL_CNWeb_Truong_TH12A\Nhom_19\FashionShop2.0\Model\bin\Debug\Model.dll
+E:\Project test\BTL_CNWeb_Truong_TH12A\Nhom_19\FashionShop2.0\Model\bin\Debug\Model.pdb
+E:\Project test\BTL_CNWeb_Truong_TH12A\Nhom_19\FashionShop2.0\Model\bin\Debug\EntityFramework.dll
+E:\Project test\BTL_CNWeb_Truong_TH12A\Nhom_19\FashionShop2.0\Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\Project test\BTL_CNWeb_Truong_TH12A\Nhom_19\FashionShop2.0\Model\bin\Debug\PagedList.dll
+E:\Project test\BTL_CNWeb_Truong_TH12A\Nhom_19\FashionShop2.0\Model\bin\Debug\PagedList.Mvc.dll
+E:\Project test\BTL_CNWeb_Truong_TH12A\Nhom_19\FashionShop2.0\Model\bin\Debug\EntityFramework.xml
+E:\Project test\BTL_CNWeb_Truong_TH12A\Nhom_19\FashionShop2.0\Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\Project test\BTL_CNWeb_Truong_TH12A\Nhom_19\FashionShop2.0\Model\bin\Debug\PagedList.xml
+E:\Project test\BTL_CNWeb_Truong_TH12A\Nhom_19\FashionShop2.0\Model\bin\Debug\PagedList.Mvc.xml
+E:\Project test\BTL_CNWeb_Truong_TH12A\Nhom_19\FashionShop2.0\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+E:\Project test\BTL_CNWeb_Truong_TH12A\Nhom_19\FashionShop2.0\Model\obj\Debug\Model.dll
+E:\Project test\BTL_CNWeb_Truong_TH12A\Nhom_19\FashionShop2.0\Model\obj\Debug\Model.pdb
+E:\FashionShop2.0_ttn\FashionShop2.0\FashionShop2.0\FashionShop2.0\Model\bin\Debug\Model.dll.config
+E:\FashionShop2.0_ttn\FashionShop2.0\FashionShop2.0\FashionShop2.0\Model\bin\Debug\Model.dll
+E:\FashionShop2.0_ttn\FashionShop2.0\FashionShop2.0\FashionShop2.0\Model\bin\Debug\Model.pdb
+E:\FashionShop2.0_ttn\FashionShop2.0\FashionShop2.0\FashionShop2.0\Model\bin\Debug\EntityFramework.dll
+E:\FashionShop2.0_ttn\FashionShop2.0\FashionShop2.0\FashionShop2.0\Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\FashionShop2.0_ttn\FashionShop2.0\FashionShop2.0\FashionShop2.0\Model\bin\Debug\PagedList.dll
+E:\FashionShop2.0_ttn\FashionShop2.0\FashionShop2.0\FashionShop2.0\Model\bin\Debug\PagedList.Mvc.dll
+E:\FashionShop2.0_ttn\FashionShop2.0\FashionShop2.0\FashionShop2.0\Model\bin\Debug\EntityFramework.xml
+E:\FashionShop2.0_ttn\FashionShop2.0\FashionShop2.0\FashionShop2.0\Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\FashionShop2.0_ttn\FashionShop2.0\FashionShop2.0\FashionShop2.0\Model\bin\Debug\PagedList.xml
+E:\FashionShop2.0_ttn\FashionShop2.0\FashionShop2.0\FashionShop2.0\Model\bin\Debug\PagedList.Mvc.xml
+E:\FashionShop2.0_ttn\FashionShop2.0\FashionShop2.0\FashionShop2.0\Model\obj\Debug\Model.csprojAssemblyReference.cache
+E:\FashionShop2.0_ttn\FashionShop2.0\FashionShop2.0\FashionShop2.0\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+E:\FashionShop2.0_ttn\FashionShop2.0\FashionShop2.0\FashionShop2.0\Model\obj\Debug\Model.csproj.CopyComplete
+E:\FashionShop2.0_ttn\FashionShop2.0\FashionShop2.0\FashionShop2.0\Model\obj\Debug\Model.dll
+E:\FashionShop2.0_ttn\FashionShop2.0\FashionShop2.0\FashionShop2.0\Model\obj\Debug\Model.pdb

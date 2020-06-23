@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="contact">
+    <div class="container">
+        <div class="contact-head">
+            <h2>LIÊN HỆ TỚI CHÚNG TÔI</h2>
+            <p>Hãy điền đầy đủ thông tin vào các ô dưới đây để chúng tôi tiếp nhận thông tin thật chính xác </p>
+        </div>
+        <div class="col-md-8 contact-left">
+            <form class="contact-details">
+                <input type="text" class="text" value="Họ tên" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Họ tên';}">
+                <input type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
+                <input type="text" class="text" value="Nghề nghiệp" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nghề nghiệp';}">
+                <textarea onfocus="if(this.value == 'Message') this.value='';" onblur="if(this.value == '') this.value='Message';">Message</textarea>
+                <div class="clearfix"></div>
+                <input type="submit" value="Gửi">
+            </form>
+        </div>
+        <div class="col-md-4 company_address">
+            <h3>Địa chỉ</h3>
+            <p>Fashion Shop</p>
+            <p>132 Cầu Giấy - Cầu giấy</p>
+            <p>Hà Nội</p>
+
+            <p class="number">Phone:0162.6602.881</p>
+            <p>Email: <a href="mailto:giffmesomething@gmail.com">Giffmesomething@gmail.com</a></p>
+            <p>Follow on: <a href="https://www.facebook.com/TruongDinh.271">Facebook</a></p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>

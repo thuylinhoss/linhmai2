@@ -1,0 +1,23 @@
+﻿
+<div class="signin">
+    @{Html.RenderAction("HeaderCart", "Home");}
+    @{
+        var session = (FashionShop2._0.Common.UserLogin)Session[FashionShop2._0.Common.CommonConstants.USER_SESSION];
+    }
+    @if (session==null)
+    {
+        <ul>
+        @foreach (var item in Model)
+        {
+            <li><a href="@item.Link" target="@item.Target">@item.Text</a>&nbsp;</li>
+        }
+    </ul>
+    }
+    else
+    {
+        <ul>
+            <li>Xin chào: @session.Name</li>
+            <li>@Html.ActionLink("Thoát","Logout","User")</li>
+        </ul>
+    }
+</div>

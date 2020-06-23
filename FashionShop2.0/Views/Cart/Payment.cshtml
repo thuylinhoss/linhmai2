@@ -1,0 +1,126 @@
+﻿@model List<FashionShop2._0.Models.CartItem>
+@{
+    ViewBag.Title = "Payment";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="cart">
+    <div class="container">
+        @if (Model.Count > 0)
+        {
+            <table class="table">
+                <thead>
+                    <tr>
+                        <td>Mã sản phẩm</td>
+                        <td>Tên sản phẩm</td>
+                        <td>Hình Ảnh</td>
+                        <td>Số lượng</td>
+                        <td>Đơn giá</td>
+                        <td>Thành tiền</td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Product.Code</td>
+                            <td>@item.Product.Name</td>
+                            <td><img src="@item.Product.Image" width="100" /></td>
+                            <td><input type="text" class="txtQuantity" data-id="@item.Product.ID" value="@item.Quantity" /></td>
+                            <td>@item.Product.Price.GetValueOrDefault(0).ToString("N0")</td>
+                            <td>@((item.Product.Price.GetValueOrDefault(0) * item.Quantity).ToString("N0"))</td>
+                            <td><a href="#" data-id="@item.Product.ID" class="btn-delete">Xoá</a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+        }
+
+        <div class="container">
+            <div class="col-md-6 reg-form">
+                <div class="reg">
+                    @using (Html.BeginForm("Payment", "Cart", FormMethod.Post))
+                    {
+
+                        <ul>
+                            <li class="text-info">Người nhận</li>
+                            <li><input type="text" name="shipName" value=""></li>
+                        </ul>
+                        <ul>
+                            <li class="text-info">Địa chỉ</li>
+                            <li><input type="text" name="Address" value=""></li>
+                        </ul>
+                        <ul>
+                            <li class="text-info">Điện thoại</li>
+                            <li><input type="text" name="Phone" value=""></li>
+                        </ul>
+                        <ul>
+                            <li class="text-info">Email</li>
+                            <li><input type="text" name="Email" value=""></li>
+                        </ul>
+                        <input type="submit" class="btn btn-primary" value="Gửi đơn hàng" />
+                        @*<button type="submit" class="btn btn-primary">Gửi đơn hàng</button>*@
+
+                        @*<div class="form-group">
+                                <label>Người nhận</label>
+                                <input name="shipName" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label>Địa chỉ</label>
+                                <input name="Address" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label>Điện thoại</label>
+                                <input name="Phone" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input name="Email" class="form-control" />
+                            </div>
+                            <button type="submit" class="btn btn-primary">Gửi đơn hàng</button>*@
+                    }
+                </div>
+            </div>
+        </div>
+
+
+        <div class="cart-list">
+            <h3>Danh mục</h3>
+            <div class="col-md-4 carting">
+                <ul>
+                    <li><a href="#">Always free from repetition</a></li>
+                    <li><a href="#">Vestibulum rhoncus nibh quis dui fermentum iaculis.</a></li>
+                    <li><a href="#">The standard chunk of Lorem Ipsum</a></li>
+                    <li><a href="#">In consequat dolor in lorem egestas ultrices.</a></li>
+                    <li><a href="#">Aliquam sollicitudin eros id luctus consequat.</a></li>
+                    <li><a href="#">Always free from repetition</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 carting">
+                <ul>
+                    <li><a href="#">Always free from repetition</a></li>
+                    <li><a href="#">Vestibulum rhoncus nibh quis dui fermentum iaculis.</a></li>
+                    <li><a href="#">The standard chunk of Lorem Ipsum</a></li>
+                    <li><a href="#">In consequat dolor in lorem egestas ultrices.</a></li>
+                    <li><a href="#">Aliquam sollicitudin eros id luctus consequat.</a></li>
+                    <li><a href="#">Always free from repetition</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 carting">
+                <ul>
+                    <li><a href="#">Always free from repetition</a></li>
+                    <li><a href="#">Vestibulum rhoncus nibh quis dui fermentum iaculis.</a></li>
+                    <li><a href="#">The standard chunk of Lorem Ipsum</a></li>
+                    <li><a href="#">In consequat dolor in lorem egestas ultrices.</a></li>
+                    <li><a href="#">Aliquam sollicitudin eros id luctus consequat.</a></li>
+                    <li><a href="#">Always free from repetition</a></li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+
+    </div>
+</div>

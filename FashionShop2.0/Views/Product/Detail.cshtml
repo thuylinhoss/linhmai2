@@ -1,0 +1,69 @@
+﻿@model Model.EF.SanPham
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*<script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+        // Slideshow 1
+        $("#slider2").responsiveSlides({
+            auto: true,
+            nav: true,
+            speed: 500,
+            namespace: "callbacks",
+        });
+    });
+</script>
+<script src="/Assets/Clients/js/responsiveslides.min.js"></script>*@
+<div class="single-section">
+    <div class="col-md-8 fashions2">
+        <div class="slider2">
+            @*<ul class="rslides rslider" id="slider2">
+                <li><img src="/Assets/Clients/images/s2.jpg" alt=""></li>
+                <li><img src="/Assets/Clients/images/s3.jpg" alt=""></li>
+                <li><img src="/Assets/Clients/images/s4.jpg" alt=""></li>
+                <li><img src="/Assets/Clients/images/s11.jpg" alt=""></li>
+            </ul>*@
+            <img src="@Model.Image" alt="@Model.Name">
+
+        </div>
+    </div>
+    <div class="col-md-4 side-bar2">
+        <div class="product-price">
+            <div class="product-name">
+                <h2>@Model.Name</h2>
+                <p>@Model.Description</p>
+                <span>@(Model.Price.HasValue ? Model.Price.Value.ToString("N0") : "Liên hệ")</span>
+                @*<h4>Giá khuyến mãi: </h4>
+                <span>@(Model.PromotionPrice.HasValue? Model.PromotionPrice.Value.ToString("N0") : "Liên hệ")</span>*@
+                <div class="clearfix"></div>
+                @if(@Model.Status==true)
+                {
+                    <h4>Còn hàng</h4>
+                }
+                else
+                {
+                    <h4>Hết hàng</h4>
+                }
+            </div>
+            <div class="product-id">
+                @*<h4>CHỌN SIZE</h4>
+                <div class="size select-size">
+                    <ul>
+                        <li><a href="#">XS</a></li>
+                        <li><a href="#">S</a></li>
+                        <li><a href="#">M</a></li>
+                        <li><a href="#">L</a></li>
+                        <li><a href="#">XL</a></li>
+                    </ul>
+                </div>*@
+                <p>Mã Hàng : <a href="#">@Model.Code</a></p>
+                <a class="add" href="/them-gio-hang?productID=@Model.ID&quantity=1">Thêm vào giỏ hàng</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
+</div>

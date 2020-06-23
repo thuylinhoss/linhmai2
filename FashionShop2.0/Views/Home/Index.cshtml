@@ -1,0 +1,212 @@
+﻿@{
+    ViewBag.Title = "Trang chủ";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var Slides1 = (List<Model.EF.Slide>)ViewBag.Slides1;
+    var FeatureProducts = (List<Model.EF.SanPham>)ViewBag.FeatureProducts;
+    var NewProducts = (List<Model.EF.SanPham>)ViewBag.NewProducts;
+    var SaleProducts = (List<Model.EF.SanPham>)ViewBag.SaleProducts;
+}
+
+<script src="/Assets/Clients/js/responsiveslides.min.js"></script>
+<script>
+    $(function () {
+        $("#slider").responsiveSlides({
+            auto: true,
+            speed: 500,
+            manualControls: '#slider3-pager',
+        });
+    });
+</script>
+
+<div class="slider">
+    <div class="callbacks_container">
+        <ul class="rslides" id="slider">
+            @foreach(var item in Slides1)
+            {
+                <li>
+                <img src="@item.Image" alt="">
+                <div class="banner-info">
+                    <h3>@item.Description</h3>
+                </div>
+                </li>
+            }
+        </ul>
+    </div>
+</div>
+<!---->
+<!---->
+<div class="tab-section">
+    <div class="wrap">
+        <div id="horizontalTab">
+            <ul class="resp-tabs-list">
+                <li><a href="#">NỔI BẬT</a></li>
+                <li class="active"><a href="#">HÀNG MỚI</a></li>
+                <li><a href="#">SALE</a></li>
+                <div class="clearfix"></div>
+            </ul>
+            <div class="resp-tabs-container">
+                <!--tab1-->
+                <div>
+                    <div class="course_demo1">
+                        <ul id="flexiselDemo1">
+                            @foreach(var item in FeatureProducts)
+                            {
+                                var url = "/chi-tiet/" + item.MetaTitle + "-" + item.ID;
+                                <li class="g1">
+                                <img src="@item.Image" alt="" />
+                                    <a href="@url">
+                                    <div class="caption">
+                                        <span></span>
+                                        <h3>@item.Name</h3>
+                                        <h5>@item.Price đ</h5>
+                                    </div>
+                                </a>
+                                <div class="clearfix"></div>
+                            </li>
+                            }
+                         </ul>
+                    </div>
+                    <link rel="stylesheet" href="/Assets/Clients/css/flexslider.css" type="text/css" media="screen" />
+                    <script type="text/javascript">
+                        $(window).load(function () {
+                            $("#flexiselDemo1").flexisel({
+                                visibleItems: 4,
+                                animationSpeed: 1000,
+                                autoPlay: true,
+                                autoPlaySpeed: 3000,
+                                pauseOnHover: true,
+                                enableResponsiveBreakpoints: true,
+                                responsiveBreakpoints: {
+                                    portrait: {
+                                        changePoint: 480,
+                                        visibleItems: 1
+                                    },
+                                    landscape: {
+                                        changePoint: 640,
+                                        visibleItems: 2
+                                    },
+                                    tablet: {
+                                        changePoint: 768,
+                                        visibleItems: 3
+                                    }
+                                }
+                            });
+
+                        });
+                    </script>
+                    <script type="text/javascript" src="/Assets/Clients/js/jquery.flexisel.js"></script>
+                </div>
+                <!--/tab1-->
+                <!--tab2-->
+                <div>
+                    <div class="course_demo1">
+                        <ul id="flexiselDemo2">
+                            @foreach(var item in NewProducts)
+                            {
+                                var url = "/chi-tiet/" + item.MetaTitle + "-" + item.ID;
+                                <li class="g1">
+                                <img src="@item.Image" />
+                                <a href="@url">
+                                    <div class="caption">
+                                        <span></span>
+                                        <h3>@item.Name</h3>
+                                        <h5>@item.Price đ</h5>
+                                    </div>
+                                </a>
+                                <div class="clearfix"></div>
+                            </li>
+                            }
+          
+                        </ul>
+                    </div>
+                    <link rel="stylesheet" href="/Assets/Clients/css/flexslider.css" type="text/css" media="screen" />
+                    <script type="text/javascript">
+                        $(window).load(function () {
+                            $("#flexiselDemo2").flexisel({
+                                visibleItems: 4,
+                                animationSpeed: 1000,
+                                autoPlay: true,
+                                autoPlaySpeed: 3000,
+                                pauseOnHover: true,
+                                enableResponsiveBreakpoints: true,
+                                responsiveBreakpoints: {
+                                    portrait: {
+                                        changePoint: 480,
+                                        visibleItems: 1
+                                    },
+                                    landscape: {
+                                        changePoint: 640,
+                                        visibleItems: 2
+                                    },
+                                    tablet: {
+                                        changePoint: 768,
+                                        visibleItems: 3
+                                    }
+                                }
+                            });
+
+                        });
+                    </script>
+                    <script type="text/javascript" src="/Assets/Clients/js/jquery.flexisel.js"></script>
+                </div>
+                <!--/tab2-->
+                <!--tab3-->
+                <div>
+                    <div class="course_demo1">
+                        <ul id="flexiselDemo3">
+                            @foreach(var item in SaleProducts)
+                            {
+                                var url = "/chi-tiet/" + item.MetaTitle + "-" + item.ID;
+                                <li class="g1">
+                                <img src="@item.Image" alt="" />
+                                <a href="@url">
+                                    <div class="caption">
+                                        <span></span>
+                                        <h3>@item.Name</h3>
+                                        <strike><h5>@item.Price đ</h5></strike>
+                                        <h5>@item.PromotionPrice đ</h5>
+                                    </div>
+                                </a>
+                                <div class="clearfix"></div>
+                            </li>
+                            }
+                        </ul>
+                    </div>
+                    <link rel="stylesheet" href="/Assets/Clients/css/flexslider.css" type="text/css" media="screen" />
+                    <script type="text/javascript">
+                        $(window).load(function () {
+                            $("#flexiselDemo3").flexisel({
+                                visibleItems: 4,
+                                animationSpeed: 1000,
+                                autoPlay: true,
+                                autoPlaySpeed: 3000,
+                                pauseOnHover: true,
+                                enableResponsiveBreakpoints: true,
+                                responsiveBreakpoints: {
+                                    portrait: {
+                                        changePoint: 480,
+                                        visibleItems: 1
+                                    },
+                                    landscape: {
+                                        changePoint: 640,
+                                        visibleItems: 2
+                                    },
+                                    tablet: {
+                                        changePoint: 768,
+                                        visibleItems: 3
+                                    }
+                                }
+                            });
+
+                        });
+                    </script>
+                    <script type="text/javascript" src="/Assets/Clients/js/jquery.flexisel.js"></script>
+                </div>
+                <!--/tab3-->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        @{Html.RenderAction("MainMenu", "Home");}
+    </div>
+</div>

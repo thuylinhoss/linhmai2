@@ -1,0 +1,64 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var top1Product = (List<Model.EF.SanPham>)ViewBag.top1Product;
+    var top2Product = (List<Model.EF.SanPham>)ViewBag.top2Product;
+}
+
+<div class="men-fashions">
+    <div class="container">
+        <div class="col-md-9 fashions">
+            <div class="title">
+                <h3>TOPS</h3>
+            </div>
+            <div class="fashion-section">
+                <div class="fashion-grid1">
+                    @foreach (var item in top1Product)
+                    {
+                        var url = "/chi-tiet/" + item.MetaTitle + "-" + item.ID;
+                        <div class="col-md-4 fashion-grid">
+                            <a href="@url">
+                                <img src="@item.Image" alt="@item.Name" />
+                                <div class="product">
+                                    <h3>@item.Name</h3>
+                                    <p><span></span> @(item.Price.HasValue ? item.Price.Value.ToString("N0") : "Liên hệ")</p>
+                                </div>
+                            </a>
+                            <div class="fashion-view">
+                                <span></span>
+                                <div class="clearfix"></div>
+                                <h4><a href="@url">Chi tiết</a></h4>
+                            </div>
+                        </div>
+                    }
+                    <div class="clearfix"></div>
+                </div>
+                <div class="fashion-grid2">
+                    @foreach (var item in top2Product)
+                    {
+                        var url = "/chi-tiet/" + item.MetaTitle + "-" + item.ID;
+                        <div class="col-md-4 fashion-grid">
+                            <a href="@url">
+                                <img src="@item.Image" alt="@item.Name" />
+                                <div class="product">
+                                    <h3>@item.Name</h3>
+                                    <p><span></span> @(item.Price.HasValue ? item.Price.Value.ToString("N0") : "Liên hệ")</p>
+                                </div>
+                            </a>
+                            <div class="fashion-view">
+                                <span></span>
+                                <div class="clearfix"></div>
+                                <h4><a href="@url">Chi tiết</a></h4>
+                            </div>
+                        </div>
+                    }
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 side-bar">
+            @{Html.RenderAction("ProductCategoryNam", "Product");}
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
