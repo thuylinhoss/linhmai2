@@ -29,6 +29,6 @@ namespace Model.EF
         public DateTime? ModifiedDate { get; set; }
 
         public int? SlideType { get; set; }
-        public bool? Status { get; set; }
+        public bool Status { get; set; }
     }
 }
