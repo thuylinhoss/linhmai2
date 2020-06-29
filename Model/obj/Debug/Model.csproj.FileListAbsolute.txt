@@ -86,3 +86,19 @@ C:\Users\Admin\Documents\GitHub\linhmai2\Model\obj\Debug\Model.csproj.CoreCompil
 C:\Users\Admin\Documents\GitHub\linhmai2\Model\obj\Debug\Model.csproj.CopyComplete
 C:\Users\Admin\Documents\GitHub\linhmai2\Model\obj\Debug\Model.dll
 C:\Users\Admin\Documents\GitHub\linhmai2\Model\obj\Debug\Model.pdb
+C:\Users\THUY LINH\Documents\GitHub\linhmai2\Model\bin\Debug\Model.dll.config
+C:\Users\THUY LINH\Documents\GitHub\linhmai2\Model\bin\Debug\Model.dll
+C:\Users\THUY LINH\Documents\GitHub\linhmai2\Model\bin\Debug\Model.pdb
+C:\Users\THUY LINH\Documents\GitHub\linhmai2\Model\bin\Debug\EntityFramework.dll
+C:\Users\THUY LINH\Documents\GitHub\linhmai2\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\THUY LINH\Documents\GitHub\linhmai2\Model\bin\Debug\PagedList.dll
+C:\Users\THUY LINH\Documents\GitHub\linhmai2\Model\bin\Debug\PagedList.Mvc.dll
+C:\Users\THUY LINH\Documents\GitHub\linhmai2\Model\bin\Debug\EntityFramework.xml
+C:\Users\THUY LINH\Documents\GitHub\linhmai2\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\THUY LINH\Documents\GitHub\linhmai2\Model\bin\Debug\PagedList.xml
+C:\Users\THUY LINH\Documents\GitHub\linhmai2\Model\bin\Debug\PagedList.Mvc.xml
+C:\Users\THUY LINH\Documents\GitHub\linhmai2\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\THUY LINH\Documents\GitHub\linhmai2\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\THUY LINH\Documents\GitHub\linhmai2\Model\obj\Debug\Model.csproj.CopyComplete
+C:\Users\THUY LINH\Documents\GitHub\linhmai2\Model\obj\Debug\Model.dll
+C:\Users\THUY LINH\Documents\GitHub\linhmai2\Model\obj\Debug\Model.pdb
